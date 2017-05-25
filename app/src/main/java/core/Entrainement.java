@@ -14,6 +14,10 @@ public class Entrainement {
     private String lieu;
     private int etat;
 
+    public Entrainement(){
+
+    }
+
     public Entrainement(int id, int id_planning, int id_groupe, Date date, Time horaire_debut, Time horaire_fin, String lieu, int etat) {
         this.id = id;
         this.id_planning = id_planning;
